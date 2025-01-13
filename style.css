@@ -470,8 +470,14 @@ footer p{
     margin-bottom: 1rem;
 }
 .ux-research-container, .overview-container {
-    margin-top: 2rem;
-    
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+.caption-project-text{
+    display: block;
+    text-align: center;
 }
 
 
@@ -481,10 +487,8 @@ footer p{
     gap: 20px; /* Adds consistent spacing between items */  
 }
 
-strong:hover{
-    background: rgb(240, 155, 50);
-    color: rgb(37, 37, 37);
-    text-decoration: underline;
+strong:hover {
+    color: rgb(221, 132, 6);
     cursor: pointer;
   }
 
@@ -538,3 +542,4 @@ strong:hover{
     padding: 0;
     color: #000000;
 }
+
