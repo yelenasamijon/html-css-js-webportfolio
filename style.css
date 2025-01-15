@@ -49,15 +49,21 @@ nav {
 
 .logo {
     font-size:2rem;
+    color: black;
+    font-weight:bold;
 }
 
 .logo:hover{
     cursor: default;
+    color: black;
+    font-weight:bold;
 }
 
 .logo:hover a{
     cursor: default;
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
 }
 
 a {
@@ -444,6 +450,9 @@ footer p{
 }
 
 /*FYP*/
+#fyp {
+    position: relative;
+}
 #fyp ul, ol {
     padding-left: 1rem  
 }
@@ -514,7 +523,7 @@ strong:hover {
     padding: 1rem;
     border: 1px solid #000000; /* Optional border for visibility */
     border-radius: 1rem; /* Optional rounded corners */
-    background-color: #c8ffa1; /* Optional background color */
+    background-color: #fcff61; /* Optional background color */
 }
 
 .findings-icon {
@@ -542,4 +551,20 @@ strong:hover {
     padding: 0;
     color: #000000;
 }
+
+.icon-back {
+    display: flex; /* Use flex for potential alignment purposes */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    width: 30px; /* Ensure the div only wraps the content (the arrow icon) */
+    height: 30px; /* Let height adjust to content */
+    cursor: pointer; /* Optional: Make the container clickable */
+}
+
+.icon-arrow {
+    width: 35px; /* Define the image size */
+    height: 35px;
+    cursor: pointer; /* Apply the pointer style to the icon */
+}
+
 
