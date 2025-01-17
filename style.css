@@ -94,6 +94,7 @@ a:hover {
 
 .hamburger-icon {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     height: 24px;
@@ -135,6 +136,10 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+    z-index: 999; /* Add a high z-index to ensure it appears above other content */
+    overflow: visible; /* Allow menu items to be fully visible */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for clarity */
+    border-radius: 15px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -507,7 +512,7 @@ strong:hover {
 
 .research-findings {
     display: grid;
-    grid-template-columns: repeat(2 , 1fr); /* Two columns */
+    grid-template-columns: repeat(2 , 0.4fr); /* Two columns */
     gap: 1rem; /* Space between items */
     justify-content: center; /* Center the grid horizontally */
     align-items: center; /* Align items vertically */
@@ -521,9 +526,9 @@ strong:hover {
     align-items: center; /* Center content in each item */
     text-align: center; /* Center text */
     padding: 1rem;
-    border: 1px solid #000000; /* Optional border for visibility */
-    border-radius: 1rem; /* Optional rounded corners */
-    background-color: #fcff61; /* Optional background color */
+    border: 1px solid #000000; /*  border for visibility */
+    border-radius: 1rem; /*  rounded corners */
+    background-color: #7070706a; /*  background color*/
 }
 
 .findings-icon {
@@ -537,6 +542,7 @@ strong:hover {
     max-width: 100%; /* Ensures the image does not exceed the width of the parent */
     height: auto;    /* Maintains the image's aspect ratio */
     display: block;  /* Removes default inline spacing issues */
+    padding-bottom: 2px;
 }
 
 .my-projects-img {

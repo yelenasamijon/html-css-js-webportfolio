@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Yelena Isabel</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaqueries.css"/>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"><a href="index.html">Y I F S.</a></div>
+            <div>
+            <ul class="nav-links">
+                <li><a href="#about" onclick="location.href='index.html#about'">About</a></li>
+                <li><a href="#experience" onclick="location.href='index.html#experience'">Experience</a></li>
+                <li><a href="#projects" onclick="location.href='index.html#projects'">Projects</a></li>
+                <li><a href="#contact" onclick="location.href='index.html#contact'">Contact</a></li>
+            </ul>
+         </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Y I F S.</div>
+             <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </div>
+             <div class="menu-links">
+                <li><a href="#about"onclick="location.href='index.html#about'">About</a></li>
+                <li><a href="#experience"onclick="location.href='index.html#experience'">Experience</a></li>
+                <li><a href="#projects"onclick="location.href='index.html#projects'">Projects</a></li>
+                <li><a href="#contact"onclick="location.href='index.html#contact'">Contact</a></li>
+             </div>
+            </div>
+        </nav>
+        
+        <section id="internship"> <!--this is the main box of the internship page -->
+         <div class="icon-back"><!--this is the 'back arrow' to go to previous page-->
+            <img src="./assets/arrow-back.png" alt="Back to Projects" class="icon-arrow" onclick="location.href='./#projects'"/>
+         </div>
+
+         <p class="section__text__p1">Internship at</p>
+         <h1 class="title">HomeRenoGuru</h1>
+         <div class="internship-container">
+
+            <div class="fyp-details-container"> <!--this is the OVERVIEW container of the internship page -->
+                <h1 class="fyp-overview-container">Overview</h1>
+                <div class="overview-container">
+                    <div class="normal">
+                        <h3>About</h3>
+                        <p>My 4-month internship at HomeRenoGuru offered an incredible opportunity to gain hands-on experience in digital marketing, content creation, and web design. During my time, I worked on diverse projects that allowed me to apply my skills in real-world situations and grow as a professional in the digital space.</p>                    
+                        <h3>Team Size</h3>
+                        <ul>
+                            <li>A Group of 5</li>
+                        </ul><br>
+
+                        <h3>Toolkit</h3>
+                        <ul>
+                            <li>Canva</li>
+                            <li>Capcut</li> 
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>WordPress</li>
+                        </ul><br>
+                        <h3>Responsibilities</h3>
+                        <p>As an intern, I was responsible for several key tasks that contributed to the company’s digital marketing and content strategy:</p>
+                        <ul>
+                            <li>Content Creation & Editing: I created and edited content for TikTok and Instagram, improving the brand's online presence.</li>
+                            <li>Website Management: I assisted with updating and managing website content using WordPress, ensuring it remained fresh and relevant.</li>
+                        </ul>                   
+                        
+
+                    </div>
+                </div>
+            </div>
+
+         </div>
+         
+        
+
+
+        </section>
+
+        <footer>
+            <p> Copyright &#169; 2025 Yelena Isabel. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+</html>
