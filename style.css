@@ -212,7 +212,7 @@ section {
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -507,6 +507,126 @@ strong:hover {
   }
 
 .fyp-details-container h2{
+    display: flex;
+}
+
+.research-findings {
+    display: grid;
+    grid-template-columns: repeat(2 , 0.4fr); /* Two columns */
+    gap: 1rem; /* Space between items */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Align items vertically */
+    margin-top: 0.5rem; /* Add spacing from the heading */
+
+}
+
+.research-article-container {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center content in each item */
+    text-align: center; /* Center text */
+    padding: 1rem;
+    border: 1px solid #000000; /*  border for visibility */
+    border-radius: 1rem; /*  rounded corners */
+    background-color: #7070706a; /*  background color*/
+}
+
+.findings-icon {
+    cursor: pointer;
+    height: 2rem;
+    justify-self:center;
+    align-items: center;
+}
+
+.my-projects-img img {
+    max-width: 100%; /* Ensures the image does not exceed the width of the parent */
+    height: auto;    /* Maintains the image's aspect ratio */
+    display: block;  /* Removes default inline spacing issues */
+    padding-bottom: 2px;
+}
+
+.my-projects-img {
+    width: 100%;      /* The div takes the full width of its parent container */
+    text-align: center; /* Optional: Center the image if needed */
+}
+
+.normal p {
+    background:none;
+    border: none;
+    text-align: left;
+    padding: 0;
+    color: #000000;
+}
+
+.icon-back {
+    display: flex; /* Use flex for potential alignment purposes */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    width: 30px; /* Ensure the div only wraps the content (the arrow icon) */
+    height: 30px; /* Let height adjust to content */
+    cursor: pointer; /* Optional: Make the container clickable */
+}
+
+.icon-arrow {
+    width: 35px; /* Define the image size */
+    height: 35px;
+    cursor: pointer; /* Apply the pointer style to the icon */
+}
+
+
+/*Internship*/
+#internship {
+    position: relative;
+}
+#internship ul, ol {
+    padding-left: 1rem  
+}
+.internship-details-container{
+    height: fit-content;
+    width: fit-content;
+    text-align: left;
+    padding: 2rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 1rem;
+    
+}
+.internship-details-container p {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: white;
+    border-radius: 1.5rem;
+    flex: 1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.ux-research-container, .overview-container {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+.caption-project-text{
+    display: block;
+    text-align: center;
+}
+
+
+.internship-details-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between items */
+    gap: 20px; /* Adds consistent spacing between items */  
+}
+
+strong:hover {
+    color: rgb(221, 132, 6);
+    cursor: pointer;
+  }
+
+.internship-details-container h2{
     display: flex;
 }
 
