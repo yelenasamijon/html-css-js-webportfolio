@@ -115,6 +115,10 @@
         flex-direction: column; /* Stacks the items vertically */
         align-items: center;
     }
+    .internship-details-container {
+        flex-direction: column; /* Stacks the items vertically */
+        align-items: center;
+    }
     .research-findings {
         grid-template-columns: 1fr; /* Single column on small screens */
     }
@@ -122,6 +126,10 @@
 
 @media (max-width: 380px) { /* Adjust the width as needed */
     .fyp-details-container {
+        flex-direction: column; /* Stacks the items vertically */
+        align-items: center;
+    }
+    .internship-details-container {
         flex-direction: column; /* Stacks the items vertically */
         align-items: center;
     }
